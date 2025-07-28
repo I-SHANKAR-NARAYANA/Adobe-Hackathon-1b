@@ -1,5 +1,5 @@
 # Adobe India Hackathon - Connecting the Dots
-# Complete Solution for Round 1A and 1B
+# Complete Solution for Round 1B
 
 import os
 import json
