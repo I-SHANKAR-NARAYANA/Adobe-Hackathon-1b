@@ -70,7 +70,7 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 docker build --platform linux/amd64 -t pdf-analyzer:latest .
 
 # Run with persona and job parameters
-docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none -e PERSONA="PhD Researcher in Computational Biology" -e JOB="Prepare comprehensive literature review" pdf-analyzer:latest
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none
 ```
 
 ## Performance Characteristics
